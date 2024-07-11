@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+.heading {
+  background-color: black;
+  color: #1db954;
+  padding: 10px 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-content-c {
+  justify-content: center;
+}
+
+#inputDiv {
+  padding: 5px 0px;
+  margin-top: 20px;
+  height: 6vh;
+  background-color: black;
+}
+
+body{
+  background-color: rgb(6, 6, 6);
+}
+
+button {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+#inputDiv input {
+  background-color: black;
+  color: #1db954;
+  border: none;
+}
+
+#inputDiv input:focus {
+  background-color: black;
+  color: #1db954;
+  border: none;
+}
+
+input:focus-within{
+    background-color: black;
+    color: #1DB954;
+    border: none;
+}
+
+#inputDiv input::placeholder {
+  color: #1db954;
+}
+
+#inputDiv button {
+  background-color: black;
+  color: #1db954;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#displayDiv {
+  margin-top: 30px;
+  height: 60vh;
+  background-color: black;
+}
+
+#audioDiv {
+  height: 100%;
+  width: 50%;
+  /* background-color: blue; */
+}
+
+#playlistDiv {
+  height: 100%;
+  width: 50%;
+  /* background-color: red; */
+}
+
+.align-c {
+  text-align: center;
+}
